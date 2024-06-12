@@ -27,13 +27,18 @@
     analytics: {
       key: 'a1180f10-d37c-44a1-83ed-f7b6a2629527',
       title: 'Art of Motion',
-      videoId: 'wizard-Art_of_Motion-1718220398925',
+      videoId: 'wizard-Art_of_Motion-1718221069442',
     },
   };
 
   var source = {
     title: 'Art of Motion',
-    hls: 'https://video.gumlet.io/65dc927f53502b6bd960c6b8/664f9f37dc88f9b2f0be352d/main.m3u8',
+    hls: 'https://video.gumlet.io/65dc927f53502b6bd960c6b8/664614f3ef3bada72e182e9c/main.m3u8',
+		drm: {
+      widevine: {
+        LA_URL: "https://widevine.gumlet.com/licence/65d8cfa6bd7f7bc5543ddb4d",
+      },
+    },
   };
 
   var player = new bitmovin.player.Player(document.getElementById('player'), conf);
