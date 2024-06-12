@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "@mux/mux-player": "latest"
-  },
-  "main": "/index.js",
-  "devDependencies": {}
-}
